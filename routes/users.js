@@ -8,7 +8,6 @@ var  eventproxy = require('eventproxy');
 
 var cnodeUrl = 'https://cnodejs.org/';
 /* GET users listing. */
-
 var Users = require('../models/Users');
 
 router.get('/', function(req, res, next) {
